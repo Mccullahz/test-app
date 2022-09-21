@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <p>Calendar</p>
+        <h2>Scheduling</h2>
       
       <Calendar onChange={onChange} value={value}/>
       </header> 

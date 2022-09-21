@@ -10,7 +10,7 @@ function Login() {
       <header className="Login-header">
        <h2>Dashboard</h2>
 
-       <form action="/App.js" method="POST">
+       <form action="localhost:3000/App.js" method="POST">
             <button type="submit">Log In</button>
         
        </form>
