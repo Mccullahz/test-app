@@ -5,11 +5,12 @@ import Calendar from 'react-calendar'
 function App() {
   const [value, onChange] = useState(new Date())
   return (
+
     <div className="App">
+      <h1>Scheduling</h1>
+
       <header className="App-header">
-        <h2>Scheduling</h2>
-      
-      <Calendar onChange={onChange} value={value}/>
+        <Calendar onChange={onChange} value={value}/> 
       </header> 
     </div>
   );
