@@ -1,7 +1,9 @@
 # This app is my intro to React
 
-## The intial goal is to create a good looking UI that can be used universally.
-    -By creating this UI I will set myself for a successful app, regardless of what path I choose to take with this.
-
-### After creating a great UI, I will then transfer focus to the function of the app.
-    -Though this wokrflow is backwards for most creation of apps, I feel as though the experience with creating something pleasurable to the eyes is something I need to work on right now. I have more experience creating functional code than pretty visuals.
+## The goal of this project is first to learn more about the react framework, and secondly create a scheduling app.
+- By creating this app I will learn a lot about the framework and JavaScript in general. 
+-The purpose of this app is to potentially give my S/O 
+an application in which she can schedule appointments
+## This app is non-functional at the moment.
+-There is not a lot to it, but I am active in the development of the 
+application.
