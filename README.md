@@ -5,5 +5,5 @@
 -The purpose of this app is to potentially give my S/O 
 an application in which she can schedule appointments
 ## This app is non-functional at the moment.
--There is not a lot to it, but I am active in the development of the 
+- There is not currently much to the app, but I am active in the development of the 
 application.
