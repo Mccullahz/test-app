@@ -1,17 +1,21 @@
 import './App.css';
 import React, { useState } from 'react'
 import Calendar from 'react-calendar'
+import 'react-calendar/dist/Calendar.css'
 
 function App() {
-  const [value, onChange] = useState(new Date())
+  const [date, setDate] = useState(new Date());
+
   return (
-
-    <div className="App">
-      <h1>Scheduling</h1>
-
-      <header className="App-header">
-        <Calendar onChange={onChange} value={value}/> 
-      </header> 
+    <div className='App'>
+      <h1 className='text-center'>Schedule</h1>
+      <div className='calendar-container'>
+        <Calendar onChange={setDate} value={date} />
+      </div>
+      <p className='text-center'>
+        <span className='bold'>Selected Date:</span>{' '}
+        {date.toDateString()}
+      </p>
     </div>
   );
 }
