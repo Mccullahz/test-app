@@ -1,19 +1,14 @@
 /* main page / scheduling css */
 
-.App {
+.Cal {
   text-align: center;
   background-color: #0a0e16;
   color:rgb(204, 204, 204);
   padding-top: 10vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
+.Cal-header {
   background-color: #0a0e16;
   min-height: 100vh;
   display: flex;
@@ -25,7 +20,7 @@
   color: rgb(204, 204, 204);
 }
 
-.App-link {
+.Cal-link {
   color: #61dafb;
 }
 
