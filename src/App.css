@@ -155,5 +155,8 @@ abbr[title] {
   color: #61dafb;
 }
 
+/* Testing popout css */
 
-
+.popout {
+  background-color: #0a0e16;
+}
