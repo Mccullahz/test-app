@@ -2,17 +2,23 @@ import './App.css';
 import React, { useState } from 'react'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
+import ClickAwayListener from 'react-click-away-listener';
 
 
-function Popout() {
-  <div className='Popout'>
-    <h2 className='text-center'>Select A Time To Schedule </h2>
-    <div className='Poput-container'>
-      
-    </div>
-  </div>
 
-
+const Popout = () => {
+  const [popout, setPopout] = useState(false)
+  return (
+      popout && (
+          <ClickAwayListener onClickAway={() => setPopout(false)}>
+                  <div className={'popout'}>
+                      <li>Items of the Popup</li>
+                      <li>Items of the Popup</li>
+                      <li>Items of the Popup</li>
+                  </div>
+          </ClickAwayListener>
+      )
+  );
 }
 
 
@@ -24,7 +30,7 @@ function Cal() {
     <div className='Cal'>
       <h1 className='text-center'>Scheduler</h1>
       <div className='calendar-container'>
-        <Calendar onChange={setDate} value={date} />
+        <Calendar onChange={Popout} value={date} />
       </div>
       <p className='text-center'>
         <span className='bold'>Selected Date:</span>{' '}
