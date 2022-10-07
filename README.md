@@ -1,4 +1,4 @@
-# This app is my intro to React
+# This App Is Intended To Serve As An Intro to React Application.
 
 ## The goal of this project is first to learn more about the react framework, and secondly create a scheduling app.
 - By creating this app I will learn a lot about the framework and JavaScript in general. 
